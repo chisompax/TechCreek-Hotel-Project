@@ -1,0 +1,237 @@
+// @import "/styles/variables";
+// @import "/styles/bootstrap/bootstrap.scss";
+
+@font-face {
+  font-family: "Dubai";
+  src: url("/fonts/Dubai-Bold.ttf");
+  src: url("/fonts/Dubai-Medium.ttf");
+  src: url("/fonts/Dubai-Regular.ttf");
+  src: url("/fonts/Dubai-Light.ttf");
+}
+@font-face {
+    font-family: "TFArrow";
+    src: url("/fonts/TFArrow\ Bold.ttf");
+} 
+
+  body{
+
+    // font-family: Dubai;
+    header{
+      background-image: url(/Assets/Images/Homepage/Background.png);
+      height: 100vmin;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      
+      li{
+          margin-right: 3rem;
+          font-family: 'Dubai';
+          font-weight: 500;
+          font-size: 24px;
+      }
+      .overlay{
+         height: inherit;
+        background-color: rgba(0,0,0,0.4);
+        position: relative;
+      }
+      .btn{
+          border-radius: 0;
+         
+      }
+      .btn-secondary{
+          position: absolute;
+          top: 23%;
+          font-weight: bold;
+          background-color: #504026;
+          border: 0px;
+          font-family: 'Dubai';
+          font-weight: 700;
+         
+          
+      }
+
+      .btn-primary{
+        background-color: #FE7401;
+        font-family: 'Dubai';
+        font-weight: 700;
+        
+        
+    }
+      .indicators{
+           display: inline-flex;
+           flex-direction: column;
+          //  background-color: red;
+      }
+      .rema{
+          width: 1.5rem;
+          height: 1.5rem;
+          margin-bottom: 1rem;
+          border-radius: 100%;
+          border: 1px solid white;
+      }
+      .active{
+          background-color: white;
+      }
+      .text-container{
+          color: white;
+          // background-color: blue;
+          flex: 1;
+          align-items: center;
+          max-width: 600px;
+          margin: auto;
+          text-align: center;
+          font-family: 'Dubai';
+          h1{
+              font-size: 96px;
+              font-family: 'TFArrow';
+          }
+          h4{
+              font-size: 48px;
+              font-weight: 500;
+          }
+          h5{
+              font-size: 32px;
+              font-weight: 400;
+          }
+      }
+      .inside{
+          // background-color: yellow;
+          display: flex;
+          height: 70vmin;
+          align-items: center;
+          width: 100%;
+          
+      }
+      hr{
+          background-color: #fff;
+          width: 31.25rem;
+          height: 1.2px;
+      }
+     
+      .d-arrow{
+          position: absolute;
+          top: 80%;
+      }
+
+    }
+    .first-p{
+        color: #151515;
+        height: 100%;
+        // background-color: red;
+        display: grid;
+        width: 100%;
+        max-width: 43.75rem;
+        align-items: center;
+        font-family: 'Dubai';
+        h4.mt-2{
+            font-family: 'TFArrow';
+            font-size: 48px;
+            font-weight: 700;
+        }
+        p{
+            font-weight: 300;
+            font-size: 24px;
+        }
+        
+        .btn-primary{
+            background-color: #FE7401;
+            border: 0px;
+            border-radius: 0px;
+            font-weight: 700;
+        font-size: 24px;
+        }
+        
+    }
+    .second-p img{
+       height: 100%;
+       display: grid;
+       width: 100%;
+      max-width: 59.0625rem;
+       margin-top: 5rem;
+    }
+    .heading{
+        margin-top: 12rem;
+    }
+    
+    .btn-outline-dark{
+        border: #504026 solid 3px;
+        margin-right: 2rem;
+        border-radius: 0px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .fwb{
+        text-align: center;
+        margin-top: 10rem;
+        font-weight: 700;
+        font-family: 'TFArrow';
+        font-size: 48px;
+    }
+    p{
+        color: #151515 ;
+    }
+    .cost{
+        font-weight: 700;
+        font-family: 'Dubai';
+        font-size: 27px;
+        
+    }
+    .cols img{
+        width: 100%;
+        max-width: 33.75rem;
+        margin-top: 2rem;
+        height: 33.75rem;
+       
+        }
+
+        .row{
+           
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            
+        }
+    .g-content{
+        height: 20rem;
+        // background-color: blue;
+        width: 100%;
+        max-width: 33.75rem;
+        p{  
+            font-family: 'Dubai';
+            font-weight: 300;
+            font-size: 24px;
+        }
+        h6.mt-2{
+            font-family: 'TFArrow';
+            font-weight: 550;
+            font-size: 40px;
+        }
+        
+
+    }
+    .crush{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 33.75rem;
+        // background-color: blue;
+        align-items: flex-end;
+        
+    }
+    
+    .btn{
+        border-radius: 0%;
+        
+    }
+    .btn-primary{
+        background-color: #FE7401;
+        border: 0px;
+        font-family: 'Dubai';
+        font-weight: 500;
+        font-size: 24px;
+    }
+  }
+
+  
